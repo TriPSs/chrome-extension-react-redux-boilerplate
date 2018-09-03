@@ -1,6 +1,6 @@
-export const REDUCER_NAME = 'testReducer'
+export const REDUCER_NAME = 'home'
 
-export const INTIAL_STATE = {
+export const INITIAL_STATE = {
   count: 0,
 }
 

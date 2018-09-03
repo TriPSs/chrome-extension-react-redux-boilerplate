@@ -1,9 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import * as TestConstants from './TestConstants'
+import * as HomeConstants from './HomeConstants'
 
-class Test extends React.Component {
+class HomeComponent extends React.Component {
 
   render() {
     const { count, dispatch } = this.props
@@ -12,7 +12,7 @@ class Test extends React.Component {
       <div className='App' style={{ width: 500 }}>
         test {count}
 
-        <button onClick={() => dispatch({ type: TestConstants.ACTION_ADD_COUNT })}>Add Count</button>
+        <button onClick={() => dispatch({ type: HomeConstants.ACTION_ADD_COUNT })}>Add Count</button>
       </div>
     )
   }
@@ -21,7 +21,7 @@ class Test extends React.Component {
 
 
 const mapStateToProps = (state) => ({
-  count: state.testReducer.count,
+  count: state.home.count,
 })
 
-export default connect(mapStateToProps)(Test)
+export default connect(mapStateToProps)(HomeComponent)

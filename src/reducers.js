@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import { testReducer, TestConstants } from './routes/Test'
+import { homeReducer, HomeConstants } from './routes/Home'
 
 export default combineReducers({
-  [TestConstants.REDUCER_NAME]: testReducer,
+  [HomeConstants.REDUCER_NAME]: homeReducer,
 })
