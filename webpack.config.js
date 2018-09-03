@@ -26,7 +26,6 @@ module.exports = {
       './background',
       './content',
     ],
-
   },
 
   module: {

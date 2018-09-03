@@ -1,8 +1,10 @@
 import { createStore, compose, applyMiddleware } from 'redux'
-import reducers from './reducers'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
 import { alias, wrapStore } from 'react-chrome-redux'
+import reducers from './reducers'
+
+// alias -> https://github.com/tshaddix/react-chrome-redux#3-optional-implement-actions-whose-logic-only-happens-in-the-background-script-we-call-them-aliases
 
 import config from './config'
 
