@@ -43,9 +43,10 @@ The application structure presented in this boilerplate is **fractal**, where fu
 
 ## Installation
 1. Run `npm run build`
-1. Open [chrome://extensions/](chrome://extensions/) and enable Developer mode in the top right corner
+1. Open `chrome://extensions/` in your browser and enable Developer mode in the top right corner
 1. Drag the [assets](./assets) folder into screen
-1. The extension should no appear
+1. The extension should now appear
+
 > Small note: When updating background.js you have to reload the app
 
 ## Collaboration
