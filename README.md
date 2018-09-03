@@ -16,6 +16,7 @@ The application structure presented in this boilerplate is **fractal**, where fu
 .
 ├── src                         # Application source code
 │   ├── config                  # Project configuration settings
+│   ├── components              # Reusable Presentational Components
 │   ├── containers              # Reusable Container Components
 │   ├── modules                 # Modules that deserve a separate file
 │   ├── routes                  # Main route definitions and async split points
