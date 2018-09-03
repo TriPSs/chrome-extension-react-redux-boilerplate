@@ -1,0 +1,10 @@
+.idea
+node_modules
+yarn.lock
+
+assets/background.js
+assets/background.js.map
+assets/content.js
+assets/content.js.map
+assets/popup.js
+assets/popup.js.map

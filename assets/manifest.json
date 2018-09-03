@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome react redux extension",
+  "description": "Chrome extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "Chrome"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
